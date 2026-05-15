@@ -20,6 +20,30 @@ html {
   text-transform: uppercase;
 }
 
+.author {
+  font-weight: bold;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.sub-headline {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+}
+
+.text::first-letter {
+  /* first letter bold  and twice the size of parents font-size*/
+}
+
 footer {
   text-align: center;
 }
