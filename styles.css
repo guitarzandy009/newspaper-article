@@ -1,3 +1,11 @@
+:root {
+  --ink-black: #1a1a18;
+  --page-bg: #fafaf8;
+  --blue-mid: #2a6db5;
+  --blue-light: #e6f1fb;
+  --gray-light: #f1efe8;
+}
+
 html {
   font-size: 24px;
 }
@@ -5,11 +13,12 @@ html {
 .newspaper {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+  background-color: var(--page-bg);
 }
 
 .name {
-  background-color: blue;
-  color: gray;
+  background-color: var(--blue-mid);
+  color: var(--gray-light);
   text-align: center;
   font-size: 2rem;
   font-family: "Times New Roman", serif;
@@ -19,6 +28,11 @@ html {
 .author {
   text-transform: uppercase;
 }
+
+.date {
+  text-align: center;
+}
+
 
 .author {
   font-weight: bold;
