@@ -55,7 +55,8 @@ html {
 }
 
 .text::first-letter {
-  /* first letter bold  and twice the size of parents font-size*/
+  font-weight: bold;
+  font-size: 2em;
 }
 
 footer {
